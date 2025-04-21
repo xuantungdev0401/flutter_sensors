@@ -31,6 +31,7 @@ class FlutterSensorsPlugin() : FlutterPlugin, MethodCallHandler {
     companion object {
         private const val CHANNEL_NAME = "flutter_sensors"
 
+        /*
         @Suppress("deprecation")
         @JvmStatic
         fun registerWith(registrar: PluginRegistry.Registrar) {
@@ -44,6 +45,7 @@ class FlutterSensorsPlugin() : FlutterPlugin, MethodCallHandler {
                 false
             }
         }
+        */
     }
 
     override fun onDetachedFromEngine(p0: FlutterPlugin.FlutterPluginBinding) {
